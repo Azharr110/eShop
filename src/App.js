@@ -1,10 +1,11 @@
+import '../src/App.css'
 
-
+import Header from './Header';
 
 function App() {
   return (
-    <div >
-      Title
+    <div className='App' >
+       <Header />
     </div>
   );
 }
