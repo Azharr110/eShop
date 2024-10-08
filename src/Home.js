@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import eCommerceImg from './assets/E-Commerce.jpg'
+import HomeIMG from './assets/HomeIMG.jpg'
 import Product from './Product'
 
 
@@ -10,7 +11,8 @@ function Home() {
     <div className="home__container">
         
         {/* <img src={eCommerceImg} alt="" className="home__image" /> */}
-        <img src="https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg" alt="" className="home__image" />
+        {/* <img src="https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg" alt="image not found" className="home__image" /> */}
+        <img src={HomeIMG}alt="image not found" className="home__image" />
 
         <div className="home__row">
             <Product
